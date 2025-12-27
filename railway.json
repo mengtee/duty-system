@@ -1,9 +1,8 @@
-
-  {
+{
     "build": {
       "builder": "nixpacks"
     },
     "deploy": {
-      "startCommand": "cd backend && python app.py"
+      "startCommand": "pip install -r backend/requirements.txt && cd backend && python app.py"
     }
   }
