@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+SQLAlchemy
+python-dotenv
+openpyxl
+alembic
+pydantic
