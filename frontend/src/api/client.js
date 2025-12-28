@@ -3,7 +3,7 @@ import axios from 'axios';
 console.log('VUE_APP_API_URL:', process.env.VUE_APP_API_URL);
 
 const apiClient = axios.create({
-    baseURL: process.env.VUE_APP_API_URL || 'http://duty-system-production.up.railway.app',
+    baseURL: 'https://price-aaron-onto-bought.trycloudflare.com',
     headers: {
         'Content-Type': 'application/json'
     }
