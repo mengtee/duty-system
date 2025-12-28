@@ -78,6 +78,7 @@ export default {
       } catch (error) {
         ElMessage.error('获取人员列表失败');
         console.error(error);
+        staffList.value = [];
       } finally {
         loading.value = false;
       }
